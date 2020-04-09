@@ -1,0 +1,93 @@
+Last login: Mon Apr  6 13:24:43 on ttys000
+matthewbanda@Matthews-MacBook-Air ~ % cd. /Desktop/Git/
+zsh: command not found: cd.
+matthewbanda@Matthews-MacBook-Air ~ % cd ./Desktop/Git/ 
+matthewbanda@Matthews-MacBook-Air Git % ls -lsrth
+total 40
+ 0 -rw-r--r--  1 matthewbanda  staff     0B Feb 25 12:25 index.html
+ 0 -rw-r--r--  1 matthewbanda  staff     0B Mar  3 11:33 test2.text
+24 -rw-r--r--@ 1 matthewbanda  staff    11K Apr  5 17:40 test1.txt
+16 -rw-r--r--@ 1 matthewbanda  staff   5.7K Apr  6 13:45 Terminal Saved Output
+matthewbanda@Matthews-MacBook-Air Git % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   test1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	Terminal Saved Output
+
+no changes added to commit (use "git add" and/or "git commit -a")
+matthewbanda@Matthews-MacBook-Air Git % git log
+commit fb3ebe97af1327a77345e1bf491bde685d8c6ec6 (HEAD -> master, origin/master, MyNewBranch)
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Mar 3 11:40:26 2020 -0600
+
+    changed test1.txt
+
+commit 5013c24323653fdfe059ee67b575279eb32ddbfd (origin/MyNewBranch)
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Mar 3 11:26:16 2020 -0600
+
+    added test2.txt
+
+commit 39b102b8628160c2f440e94ac4e02d9837253b41
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Feb 25 12:28:59 2020 -0600
+
+    added index.html | modified test1.txt
+
+commit 781ee6e9b5006e0cfca1d5b2ffeba809d8b94fc6
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Feb 25 12:25:02 2020 -0600
+
+    added test1.txt
+matthewbanda@Matthews-MacBook-Air Git % git commit --amend
+hint: Waiting for your editor to close the file... 
+some more changes changed test1.txt
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Tue Mar 3 11:40:26 2020 -0600
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#       modified:   test1.txt
+#
+# Changes not staged for commit:
+#       modified:   test1.txt
+#
+# Untracked files:
+#       Terminal Saved Output
+#
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+~                                                                                                         
+-- INSERT --

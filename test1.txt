@@ -1,1 +1,324 @@
-Change for hw 2
+Last login: Tue Mar 24 13:57:16 on ttys000
+matthewbanda@Matthews-MacBook-Air ~ % cd/Desktop/Git
+zsh: no such file or directory: cd/Desktop/Git
+matthewbanda@Matthews-MacBook-Air ~ % cd
+matthewbanda@Matthews-MacBook-Air ~ % cd. /Desktop
+zsh: command not found: cd.
+matthewbanda@Matthews-MacBook-Air ~ % ls
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+OneDrive - Texas A&M University - Kingsville
+Pictures
+Projects
+Public
+eclipse
+eclipse-workspace
+iCloud Drive (Archive)
+matthewbanda@Matthews-MacBook-Air ~ % cd /Desktop
+cd: no such file or directory: /Desktop
+matthewbanda@Matthews-MacBook-Air ~ % clear
+
+matthewbanda@Matthews-MacBook-Air ~ % cd /Desktop/Git/
+cd: no such file or directory: /Desktop/Git/
+matthewbanda@Matthews-MacBook-Air ~ % cd /Desktop/
+cd: no such file or directory: /Desktop/
+matthewbanda@Matthews-MacBook-Air ~ % clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+matthewbanda@Matthews-MacBook-Air ~ % cd /Desktop/Git
+cd: no such file or directory: /Desktop/Git
+matthewbanda@Matthews-MacBook-Air ~ % cd /Desktop
+cd: no such file or directory: /Desktop
+matthewbanda@Matthews-MacBook-Air ~ % 
+matthewbanda@Matthews-MacBook-Air ~ % 
+matthewbanda@Matthews-MacBook-Air ~ % 
+matthewbanda@Matthews-MacBook-Air ~ % 
+matthewbanda@Matthews-MacBook-Air ~ % 
+matthewbanda@Matthews-MacBook-Air ~ % ls
+Applications
+Desktop
+Documents
+Downloads
+Library
+Movies
+Music
+OneDrive - Texas A&M University - Kingsville
+Pictures
+Projects
+Public
+eclipse
+eclipse-workspace
+iCloud Drive (Archive)
+matthewbanda@Matthews-MacBook-Air ~ % Desktop
+zsh: command not found: Desktop
+matthewbanda@Matthews-MacBook-Air ~ % cd
+matthewbanda@Matthews-MacBook-Air ~ % cd /Desktop/
+cd: no such file or directory: /Desktop/
+matthewbanda@Matthews-MacBook-Air ~ % clear
+
+matthewbanda@Matthews-MacBook-Air ~ % cd ./Desktop/Git/
+matthewbanda@Matthews-MacBook-Air Git % ls -lsrth
+total 8
+0 -rw-r--r--  1 matthewbanda  staff     0B Feb 25 12:25 index.html
+0 -rw-r--r--  1 matthewbanda  staff     0B Mar  3 11:33 test2.text
+8 -rw-r--r--@ 1 matthewbanda  staff    15B Mar  3 11:41 test1.txt
+matthewbanda@Matthews-MacBook-Air Git % git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+matthewbanda@Matthews-MacBook-Air Git %  git log
+commit fb3ebe97af1327a77345e1bf491bde685d8c6ec6 (HEAD -> master, origin/master, MyNewBranch)
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Mar 3 11:40:26 2020 -0600
+
+    changed test1.txt
+
+commit 5013c24323653fdfe059ee67b575279eb32ddbfd (origin/MyNewBranch)
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Mar 3 11:26:16 2020 -0600
+
+    added test2.txt
+
+commit 39b102b8628160c2f440e94ac4e02d9837253b41
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Feb 25 12:28:59 2020 -0600
+
+    added index.html | modified test1.txt
+
+commit 781ee6e9b5006e0cfca1d5b2ffeba809d8b94fc6
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Feb 25 12:25:02 2020 -0600
+
+:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit fb3ebe97af1327a77345e1bf491bde685d8c6ec6 (HEAD -> master, origin/master, MyNewBranch)
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Mar 3 11:40:26 2020 -0600
+
+    changed test1.txt
+
+commit 5013c24323653fdfe059ee67b575279eb32ddbfd (origin/MyNewBranch)
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Mar 3 11:26:16 2020 -0600
+
+    added test2.txt
+
+commit 39b102b8628160c2f440e94ac4e02d9837253b41
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Feb 25 12:28:59 2020 -0600
+
+    added index.html | modified test1.txt
+
+commit 781ee6e9b5006e0cfca1d5b2ffeba809d8b94fc6
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Feb 25 12:25:02 2020 -0600
+
+:...skipping...
+commit fb3ebe97af1327a77345e1bf491bde685d8c6ec6 (HEAD -> master, origin/master, MyNewBranch)
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Mar 3 11:40:26 2020 -0600
+
+    changed test1.txt
+
+commit 5013c24323653fdfe059ee67b575279eb32ddbfd (origin/MyNewBranch)
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Mar 3 11:26:16 2020 -0600
+
+    added test2.txt
+
+commit 39b102b8628160c2f440e94ac4e02d9837253b41
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Feb 25 12:28:59 2020 -0600
+
+    added index.html | modified test1.txt
+
+commit 781ee6e9b5006e0cfca1d5b2ffeba809d8b94fc6
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Feb 25 12:25:02 2020 -0600
+
+    added test1.txt
+:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+commit fb3ebe97af1327a77345e1bf491bde685d8c6ec6 (HEAD -> master, origin/master, MyNewBranch)
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Mar 3 11:40:26 2020 -0600
+
+    changed test1.txt
+
+commit 5013c24323653fdfe059ee67b575279eb32ddbfd (origin/MyNewBranch)
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Mar 3 11:26:16 2020 -0600
+
+    added test2.txt
+
+commit 39b102b8628160c2f440e94ac4e02d9837253b41
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Feb 25 12:28:59 2020 -0600
+
+    added index.html | modified test1.txt
+
+commit 781ee6e9b5006e0cfca1d5b2ffeba809d8b94fc6
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Feb 25 12:25:02 2020 -0600
+
+    added test1.txt
+:...skipping...
+commit fb3ebe97af1327a77345e1bf491bde685d8c6ec6 (HEAD -> master, origin/master, MyNewBranch)
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Mar 3 11:40:26 2020 -0600
+
+    changed test1.txt
+
+commit 5013c24323653fdfe059ee67b575279eb32ddbfd (origin/MyNewBranch)
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Mar 3 11:26:16 2020 -0600
+
+    added test2.txt
+
+commit 39b102b8628160c2f440e94ac4e02d9837253b41
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Feb 25 12:28:59 2020 -0600
+
+    added index.html | modified test1.txt
+
+commit 781ee6e9b5006e0cfca1d5b2ffeba809d8b94fc6
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Tue Feb 25 12:25:02 2020 -0600
+
+    added test1.txt
+~
+matthewbanda@Matthews-MacBook-Air Git % git commit --amend
+hint: Waiting for your editor to close the file... 
+some more changes changed test1.txt
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Tue Mar 3 11:40:26 2020 -0600
+#
+# On branch master
+# Your branch is up to date with 'origin/master'.
+#
+# Changes to be committed:
+#       modified:   test1.txt
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+~                                                                                                
+-- INSERT --
