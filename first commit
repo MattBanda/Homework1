@@ -1,29 +1,60 @@
-Last login: Mon Apr  6 13:24:43 on ttys000
-matthewbanda@Matthews-MacBook-Air ~ % cd. /Desktop/Git/
-zsh: command not found: cd.
-matthewbanda@Matthews-MacBook-Air ~ % cd ./Desktop/Git/ 
+Last login: Wed Apr  8 14:02:17 on ttys000
+matthewbanda@Matthews-MacBook-Air ~ % cd ./Desktop/Git/
+matthewbanda@Matthews-MacBook-Air Git % git init 
+Reinitialized existing Git repository in /Users/matthewbanda/Desktop/Git/.git/
+matthewbanda@Matthews-MacBook-Air Git % git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+matthewbanda@Matthews-MacBook-Air Git % git add .
+matthewbanda@Matthews-MacBook-Air Git % git init
+Reinitialized existing Git repository in /Users/matthewbanda/Desktop/Git/.git/
+matthewbanda@Matthews-MacBook-Air Git % git add README.md
+fatal: pathspec 'README.md' did not match any files
+matthewbanda@Matthews-MacBook-Air Git % git commit -m "first commit"
+[master c79600f] first commit
+ 2 files changed, 417 insertions(+), 1 deletion(-)
+ create mode 100644 Terminal Saved Output
+ rewrite test1.txt (100%)
+matthewbanda@Matthews-MacBook-Air Git % git remote add origin https://github.com/MattBanda/homework3.git
+fatal: remote origin already exists.
+matthewbanda@Matthews-MacBook-Air Git % git push -u origin master
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 2.29 KiB | 2.29 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/MattBanda/Homework1.git
+   fb3ebe9..c79600f  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.
 matthewbanda@Matthews-MacBook-Air Git % ls -lsrth
 total 40
  0 -rw-r--r--  1 matthewbanda  staff     0B Feb 25 12:25 index.html
  0 -rw-r--r--  1 matthewbanda  staff     0B Mar  3 11:33 test2.text
 24 -rw-r--r--@ 1 matthewbanda  staff    11K Apr  5 17:40 test1.txt
-16 -rw-r--r--@ 1 matthewbanda  staff   5.7K Apr  6 13:45 Terminal Saved Output
+16 -rw-r--r--@ 1 matthewbanda  staff   4.7K Apr  9 13:21 Terminal Saved Output
+matthewbanda@Matthews-MacBook-Air Git % clear
+
+
+matthewbanda@Matthews-MacBook-Air Git % ls -lsrth                
+total 40
+ 0 -rw-r--r--  1 matthewbanda  staff     0B Feb 25 12:25 index.html
+ 0 -rw-r--r--  1 matthewbanda  staff     0B Mar  3 11:33 test2.text
+24 -rw-r--r--@ 1 matthewbanda  staff    11K Apr  5 17:40 test1.txt
+16 -rw-r--r--@ 1 matthewbanda  staff   4.7K Apr  9 13:21 Terminal Saved Output
 matthewbanda@Matthews-MacBook-Air Git % git status
 On branch master
 Your branch is up to date with 'origin/master'.
 
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git restore <file>..." to discard changes in working directory)
-	modified:   test1.txt
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	Terminal Saved Output
-
-no changes added to commit (use "git add" and/or "git commit -a")
+nothing to commit, working tree clean
 matthewbanda@Matthews-MacBook-Air Git % git log
-commit fb3ebe97af1327a77345e1bf491bde685d8c6ec6 (HEAD -> master, origin/master, MyNewBranch)
+commit c79600f7a1118449f6bebebc5596e2fe99ea283a (HEAD -> master, origin/master)
+Author: MattBanda <mathew.banda@students.tamuk.edu>
+Date:   Thu Apr 9 14:07:05 2020 -0500
+
+    first commit
+
+commit fb3ebe97af1327a77345e1bf491bde685d8c6ec6 (MyNewBranch)
 Author: MattBanda <mathew.banda@students.tamuk.edu>
 Date:   Tue Mar 3 11:40:26 2020 -0600
 
@@ -48,24 +79,19 @@ Date:   Tue Feb 25 12:25:02 2020 -0600
     added test1.txt
 matthewbanda@Matthews-MacBook-Air Git % git commit --amend
 hint: Waiting for your editor to close the file... 
-some more changes changed test1.txt
+chanages made for hw 3 first commit
 
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
 #
-# Date:      Tue Mar 3 11:40:26 2020 -0600
+# Date:      Thu Apr 9 14:07:05 2020 -0500
 #
 # On branch master
 # Your branch is up to date with 'origin/master'.
 #
 # Changes to be committed:
+#       new file:   Terminal Saved Output
 #       modified:   test1.txt
-#
-# Changes not staged for commit:
-#       modified:   test1.txt
-#
-# Untracked files:
-#       Terminal Saved Output
 #
 ~                                                                                                         
 ~                                                                                                         
